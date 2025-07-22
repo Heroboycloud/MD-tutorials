@@ -12,6 +12,6 @@ jobs:
     steps:
        -uses: actions/checkout@v4
        -name: Run one-liner script
-        run: echo "Script running successfully"
+          run: echo "Script running successfully"
 
 
