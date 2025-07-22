@@ -1,0 +1,17 @@
+name: Demo Workflow
+
+on:
+ push:
+   branches: ["main"]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+       -uses: actions/checkout@v4
+       -name: Run one-liner script
+        run: echo "Script running successfully"
+
+
